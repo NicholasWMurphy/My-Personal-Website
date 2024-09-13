@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+
+header {
+	height: 150px;
+	width: 100vw;
+}
+
+.navbar {
+	display: flex;
+	width: 33%;
+	list-style-type: none;
+	margin: 0;
+	height: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.navbar a {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-family: Bona Nova SC;
+	font-weight: bold;
+} 
+
+.navbar a:hover {
+	color: beige;
+}
+
+.pageintro {
+	height: 600px;
+	width: 100vw;
+	position: relative;
+	text-align: center;
+}
+
+.pageintro img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.title { 
+	color: white; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	font-size: 5rem;
+	font-family: Caveat;
+}
+
+.welcome {
+	display: flex;
+	width: 100vw; 
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#homeleft {
+	width: 50%;
+	height: 500px;
+	position: relative;
+}
+
+#homeright {
+	width: 50%;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+	position: relative;
+}
+
+.MyWebsite {
+	font-family: Sedan;
+	width: 100%;
+	color: white;
+	font-size: 2rem;
+
+}
+
+.thankyou {
+	color: white; 
+	font-family: Caveat;
+	font-size: 2.5rem;
+	text-align: center; 
+
+}
+
+#homephoto1 {
+	height: 250px;
+	width: 400px;
+	border-radius: 20px;
+
+	position: absolute;
+	top: 0px;
+	left: 400px;
+
+}
+
+#homephoto2 {
+	height: 250px;
+	width: 400px;
+	border-radius: 20px;
+	position: absolute;
+	top: 230px;
+	left: 150px;
+	z-index: 1;
+}
+
+#homephoto3 {
+	height: 250px;
+	width: 400px;
+	border-radius: 20px;
+	position: absolute;
+	top: 230px;
+	left: 600px;
+	z-index: 1;
+}
+
+#homephoto4 {
+	height: 400px;
+	width: 300px;
+	border-radius: 20px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	z-index: 0;
+}
+
+
+footer {
+	font-family: Sedan;
+	color: white; 
+	text-align: center;
+}
+
+
+#pagetitle {
+	font-family: Sedan;
+	color: white;
+	text-align: center;
+}
+
+.categories {
+	display: flex;
+	width: 40vw;
+	height: 75px; 
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+
+.categories a{
+		height: 75%;
+		width: 25%;
+		color: white;
+		font-family: Bona Nova SC;
+		align-content: center;
+		text-align: center;
+		border-radius: 5px;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.2em;
+	
+}
+
+.category1 {
+	background-color: darkblue;
+
+}
+
+.category2 {
+	background-color: purple;
+}
+
+.category3 {
+	background-color: darkgreen;
+}
+
+#subheader {
+	font-family: Sedan; 
+	color: white;
+	width: 802px;
+	margin: 0px auto;
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+.recentreviews {
+	width: 100vw;
+	height: 100vh;
+}
+
+.recentreviews img {
+		margin: 0 auto;
+		width: 800px;
+		height: 430px;
+		display: block; 
+		border: 2px solid white;
+		
+}
+ figure {
+	color: white;
+	font-family: Sedan;
+	text-align: center;
+	text-decoration: none;
+	
+
+}
+
+.review figure {
+	color: red;
+	font-family: Sedan;
+	text-align: center;
+	font-size: 1.2em;
+	
+}
+
+.recentreviews figcaption {
+	padding-top: 20px;
+}
+
+ a {
+		text-decoration: none;
+}
+
+
+.aboutmeintro {
+		font-family: Caveat;
+		color: white;
+		width: 40vw;
+		text-align: center;
+		margin: 0 auto;
+		height: max-content;
+		font-size: 2rem;
+		padding-bottom: 30px;
+}
+
+
+
+
+details {
+		border: 2px inset white;
+		color: white;
+		width: 33%;
+		height: 60px;
+		font-family: Sedan; 
+		margin: 0px auto;
+		padding-top: 15px;
+		font-weight: bold;
+		font-size: 1.2rem;
+		padding-left: 20px;
+		margin-bottom: 40px;
+		
+
+		
+		&[open]{
+			height: max-content;
+		}
+		
+}
+
+details ul {
+	list-style-type: none;
+	list-style-position: inside;
+	line-height: 2.0;
+}
+
+.aboutmephoto {
+	width: 700px;
+	height: 550px;
+	margin: 0 auto;
+	display: block;
+	padding: 50px;
+}
+
+.review p {
+	font-family: Sedan;
+	color: white;
+	font-size: 1.4em;
+	text-align: left;
+	line-height: 2.0;
+	
+
+}
+
+.review {
+	
+	width: 75%;
+	margin: 0 auto;
+	
+}
+
+.review img {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+.review blockquote {
+		color: orangered;
+		font-family: Bona Nova SC;
+		font-weight: bold;
+		font-size: 2em;
+		text-align: center;
+}
+
+.Photos img {
+		margin: 0 auto;
+		display: block;
+		width: 50%;
+		height: auto;
+		padding: 20px;
+		
+}	
+
+.Photos img:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2); 
+}
+
