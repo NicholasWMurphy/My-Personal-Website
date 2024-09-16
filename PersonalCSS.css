@@ -336,14 +336,15 @@ details ul {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .aboutmephoto {
-    width: 50%;
-	height: auto;
+    width: 75%;
+    height: auto;
   }
   .aboutmeintro {
 	  width: 95vw;
   }
   details {
 	  width: 85vw;
+	  font-size: 0.9em;
   }
 }
 
