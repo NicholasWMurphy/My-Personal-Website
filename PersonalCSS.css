@@ -60,7 +60,7 @@ header {
 .title { 
 	color: white; 
 	position: absolute;
-	
+	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
 	text-align: center;
@@ -80,6 +80,7 @@ header {
 	height: 500px;
 	position: relative;
 	overflow: hidden;
+	
 }
 
 #signature {
@@ -350,11 +351,16 @@ details ul {
   }
   
   .title {
-		font-size: 3rem;
+		font-size: 2rem;
 	  
   }
   
   .pageintro {
 	  height: 30vh;
   } 
+  
+  .thankyou {
+	  font-size: 1.8em;
+	  width: 95%;
+  }
 }
