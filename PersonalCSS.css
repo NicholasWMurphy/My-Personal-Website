@@ -294,7 +294,7 @@ details ul {
 .review img {
 	margin: 0 auto;
 	display: block;
-	width: 100%;
+	width: 70vw;
 	height: auto;
 	padding: 20px;
 }
@@ -371,11 +371,28 @@ details ul {
   }
   
   .review {
-	  width: 90%;
+	  width: 95%;
+	  margin: 0 auto;
   }
   
   .review blockquote {
 	  font-size: 1.2em;
   }
+  
+  .review img {
+	  width: 95vw;
+	  height: auto;
+	  
+	 
+  }
+  
+  .review figure {
+	  width: 95vw;
+	  height: auto;
+	  margin: 0 auto;
+	  display: block;
+	  
+  }
+
   
 }
