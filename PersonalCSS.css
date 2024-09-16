@@ -364,4 +364,18 @@ details ul {
 	  font-size: 1.8em;
 	  width: 95%;
   }
+  
+  .review p {
+	  font-size: 0.9em;
+	  
+  }
+  
+  .review {
+	  width: 90%;
+  }
+  
+  .review blockquote {
+	  font-size: 1em;
+  }
+  
 }
