@@ -406,5 +406,9 @@ details ul {
 	height: 9vh;
   }
 
+  #subheader {
+	width: 85%;
+  }
+
   
 }
