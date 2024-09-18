@@ -323,12 +323,7 @@ details ul {
 		
 }	
 
-.Photos img:active {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(2); 
-}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -359,7 +354,7 @@ details ul {
   }
   
   .title {
-		font-size: 2rem;
+		font-size: 3rem;
 	  
   }
   
@@ -436,9 +431,12 @@ details ul {
 	float: none;
 	margin-top: 0px;
 	padding: 10px;
+}
+
+.photos {
+	width: 80vw;
 	
-	
-  }
+}
 
 
 
