@@ -1,8 +1,10 @@
-function myFunction() {
-  var x = document.getElementById("myNavBar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
 }
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+

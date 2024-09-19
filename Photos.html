@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>LongLiveNick</title>
+		<title>NicholasWM</title>
 		<meta charset="UTF-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,14 +13,23 @@
 	</head>
 	<body>
 	<header>
-	<div class="navbar" id="myNavBar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="Photos.html">Photos</a>
-  <a href="reviews.html">Reviews</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <div class="overlay" id="myNav">
+  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="overlay-content">
+  		<a href="index.html">Home</a>
+  		<a href="about.html">About</a>
+  		<a href="Photos.html">Photos</a>
+  		<a href="reviews.html">Reviews</a>
+		</div>
+	
+  </div>
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="Photos.html">Photos</a>
+	<a href="reviews.html">Reviews</a>
   </div>
 		
 	</header>
