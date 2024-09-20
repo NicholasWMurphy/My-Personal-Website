@@ -427,7 +427,7 @@ details ul {
   }
   
   .review {
-	  width: 95%;
+	  width: 95vw;
 	  margin: 0 auto;
   }
   
@@ -436,7 +436,7 @@ details ul {
   }
   
   .review img {
-	  width: 95vw;
+	  width: 90vw;
 	  height: auto;
 	  
 	 
@@ -471,27 +471,9 @@ details ul {
 	width: 85%;
   }
 
-  .navbar a {display: none;}
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
 
-  .navbar.responsive {position: relative;}
-  .navbar.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-	
-  }
-  .navbar.responsive a:not(:last-child) {
-    display: block;
-	text-align: left;
-	font-size: 0.9em;
-	float: none;
-	margin-top: 0px;
-	padding: 10px;
-}
+
+
 
 .photos {
 	width: 80vw;
