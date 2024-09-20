@@ -445,9 +445,12 @@ details ul {
 	width: 95vw;
 	height: auto;
 	margin: 0 auto;
-	padding-top: 15px;
+	padding-top: 25px;
+  }
 
-	
+  .recentreviews img {
+	width: 90vw;
+	height: auto;
   }
 
   .categories {
@@ -485,7 +488,7 @@ details ul {
 	width: 80vw;
 
 header {
-	height: 15vh;
+	height: 9vh;
 	width: 100vw;
 }
 	
