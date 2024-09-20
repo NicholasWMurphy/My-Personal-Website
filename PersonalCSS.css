@@ -427,7 +427,7 @@ details ul {
   }
   
   .review {
-	  width: 95%;
+	  width: 100vh;
 	  margin: 0 auto;
   }
   
@@ -496,11 +496,18 @@ details ul {
 .photos {
 	width: 80vw;
 
+}
+
+
+
 header {
 	height: 9vh;
 	width: 100vw;
 }
 	
+review iframe {
+	width: 95vw;
+	height: 25vh;
 }
 
 
