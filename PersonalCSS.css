@@ -427,7 +427,7 @@ details ul {
   }
   
   .review {
-	  width: 95vw;
+	  width: 100%;
 	  margin: 0 auto;
   }
   
@@ -436,7 +436,7 @@ details ul {
   }
   
   .review img {
-	  width: 90vw;
+	  width: 95vw;
 	  height: auto;
 	  
 	 
@@ -471,9 +471,27 @@ details ul {
 	width: 85%;
   }
 
+  .navbar a {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
 
-
-
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	
+  }
+  .navbar.responsive a:not(:last-child) {
+    display: block;
+	text-align: left;
+	font-size: 0.9em;
+	float: none;
+	margin-top: 0px;
+	padding: 10px;
+}
 
 .photos {
 	width: 80vw;
@@ -487,9 +505,9 @@ header {
 	width: 100vw;
 }
 	
-review iframe {
+.review iframe {
 	width: 95vw;
-	height: 25vh;
+	height: 45vh;
 }
 
 
