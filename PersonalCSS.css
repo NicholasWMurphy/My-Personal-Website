@@ -46,6 +46,7 @@ header {
 	transition: 0.3s;
 	text-align: center;
 	font-family: Bona Nova SC;
+	font-weight: bold;
 }
 
 .overlay .closebtn {
@@ -75,6 +76,10 @@ span {
 	color: white;
 	float: right;
 	padding-right: 10px;
+}
+
+span:active {
+	color: beige;
 }
 .navbar a:hover {
 	color: beige;
@@ -437,8 +442,10 @@ details ul {
   }
 
   .recentreviews figure {
-	width: 85vw;
+	width: 95vw;
 	height: auto;
+	margin: 0 auto;
+
 	
   }
 
