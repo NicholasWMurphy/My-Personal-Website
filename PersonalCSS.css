@@ -560,6 +560,27 @@ header {
 	height: 30vh;
 }
 
+.finalreview {
+	width: 95vw;
+	height: 35vh;
+}
+
+.reviewscore {
+	font-size: 0.5em;
+}
+
+.reviewcircle {
+	height: 65%;
+	width: 90%;
+	border: 15px solid white;
+}
+
+.reviewpointers {
+	font-size: 0.7em;
+}
+
+
+
 
 
   
