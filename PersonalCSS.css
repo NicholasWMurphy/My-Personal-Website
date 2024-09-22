@@ -413,7 +413,7 @@ details ul {
 	width: 250px;
 	height: 250px;
 	color: white;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -572,7 +572,7 @@ header {
 }
 
 .reviewscore {
-	font-size: 0.4em;
+	font-size: 0.6em;
 	background-color: black;
 	width: 100%;
 }
@@ -588,12 +588,16 @@ header {
 }
 
 .reviewpointers {
-	font-size: 1.1em;
+	font-size: 1.0em;
 	color: white;
 	background-color: black;
 	width: 95%;
+	padding: 3px;
+}
+
+.reviewpointers ul {
 	line-height: 2.0;
-	padding: 10px;
+
 }
 
 
