@@ -377,6 +377,56 @@ details ul {
 		
 }	
 
+.finalreview {
+	width: 70vw;
+	height: 40vh;
+	border-radius: 20px;
+	display: flex;	
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.reviewscore {
+	width: 33%;
+	height: 100%;
+	background-color: orangered;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reviewpointers {
+	width: 67%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	font-family: Sedan;
+	margin: 0 auto;	
+	padding: 20px;
+}
+
+.reviewcircle {
+	border: 20px white solid;
+	border-radius: 50%;
+	width: 80%;
+	height: 90%;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 5em;
+	
+}
+
+.reviewpointers h3, ul {
+	margin: 0px;
+	padding: 2px;
+	list-style-position: inside;
+	line-height: 1.4;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -507,7 +557,7 @@ header {
 	
 .review iframe {
 	width: 95vw;
-	height: 45vh;
+	height: 30vh;
 }
 
 
