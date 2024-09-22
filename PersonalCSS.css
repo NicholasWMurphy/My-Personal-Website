@@ -402,7 +402,7 @@ details ul {
 	background-color: white;
 	color: black;
 	font-family: Sedan;
-	padding: 5px;
+	padding: 10px;
 }
 
 .reviewcircle {
@@ -561,22 +561,34 @@ header {
 
 .finalreview {
 	width: 100vw;
-	height: 30vh;
+	height: max-content;
 	border-radius: 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 .reviewscore {
 	font-size: 0.4em;
+	background-color: black;
 }
 
 .reviewcircle {
-	height: 50%;
-	width: 90%;
+	height: 175px;
+	width: 175px;
 	border: 8px solid white;
+	background-color: orangered;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .reviewpointers {
-	font-size: 0.7em;
+	font-size: 0.9em;
+	color: white;
+	background-color: black;
+	width: 95%;
 }
 
 
