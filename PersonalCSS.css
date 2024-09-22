@@ -7,8 +7,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	
-	
 
 }
 
@@ -193,6 +191,7 @@ footer {
 	font-family: Sedan;
 	color: white;
 	text-align: center;
+	
 }
 
 .categories {
@@ -254,7 +253,7 @@ footer {
 		border: 2px solid white;
 		
 }
- figure {
+ .recentreviews figure {
 	color: white;
 	font-family: Sedan;
 	text-align: center;
@@ -268,15 +267,25 @@ footer {
 	font-family: Sedan;
 	text-align: center;
 	font-size: 1.2em;
+	margin: 0 auto;
+	width: 100%;
+	
+	
+	
+	
 	
 }
 
 .review iframe {
-	width: 70vw;
-	height: 75vh;
+	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 20px;
+	height: 100%;
+
 }
+
+
+
 
 
 
@@ -350,16 +359,23 @@ details ul {
 
 .review {
 	
-	width: 75%;
+	max-width: 1600px;
 	margin: 0 auto;
-	max-width: 1280px;
+	overflow: hidden;
+	height: 100%;
 	
 }
+
+.review-content {
+	width: 75%;
+	margin: 0 auto;
+	height: 100%;
+} 
 
 .review img {
 	margin: 0 auto;
 	display: block;
-	width: 70vw;
+	width: 100%;
 	height: auto;
 	padding: 20px;
 }
@@ -390,7 +406,7 @@ details ul {
 	display: flex;	
 	margin: 0 auto;
 	overflow: hidden;
-	max-width: 1280px;
+	
 	
 	
 }
@@ -486,8 +502,8 @@ details ul {
 	  
   }
   
-  .review {
-	  width: 95vw;
+  .review-content {
+	  width: 95%;
 	  margin: 0 auto;
   }
   
