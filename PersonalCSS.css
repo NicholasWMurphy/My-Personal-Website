@@ -574,16 +574,17 @@ header {
 .reviewscore {
 	font-size: 0.4em;
 	background-color: black;
+	width: 100%;
 }
 
 .reviewcircle {
-	height: 175px;
-	width: 175px;
+	height: 200px;
+	width: 200px;
 	border: 8px solid white;
 	background-color: orangered;
 	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .reviewpointers {
@@ -596,12 +597,6 @@ header {
 }
 
 
-
-
-
-
-
-  
 }
 
 @media only screen and (min-width: 768px) {
