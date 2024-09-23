@@ -92,15 +92,18 @@ span:active {
 
 
 
-
+.homepage {
+	min-width: 100vw;
+}
 
 
 .pageintro {
-	height: 60vh;
+	height: 55vh;
 	width: 100%;
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	overflow: hidden;
 	
 
 }
@@ -169,14 +172,14 @@ span:active {
 	font-family: Caveat;
 	font-size: 2.5rem;
 	text-align: center; 
-	width: 75%;
+	width: 65%;
 	margin: 0 auto;
 
 }
 
 #homephoto1 {
 	
-	width: 60%;
+	width: 65%;
 	height: auto;
 	margin: 0 auto;
 	border-radius: 20px;
@@ -190,6 +193,7 @@ footer {
 	font-family: Sedan;
 	color: white; 
 	text-align: center;
+	padding-top: 60px;
 }
 
 
@@ -207,7 +211,7 @@ footer {
 	margin: 0 auto;
 	justify-content: space-evenly;
 	overflow: hidden;
-	height: 65px;
+	height: 60px;
 	
 }
 
@@ -243,9 +247,9 @@ footer {
 	font-family: Sedan; 
 	color: white;
 	text-align: left;
-	width: 60%;
+	width: 55%;
 	margin: 0 auto;	
-	padding-top: 20px;
+	padding: 40px;
 }
 
 .AllReviews {
@@ -287,7 +291,7 @@ footer {
 	text-align: center;
 	font-size: 1.2em;
 	margin: 0 auto;
-	width: 100%;
+	width: 95%;
 	
 	
 	
@@ -581,11 +585,12 @@ details ul {
 
   .categories {
 	width: 90vw;
-	height: 9vh;
+	height: 7vh;
   }
 
   #subheader {
-	width: 85%;
+	width: 100%;
+	
   }
 
   .navbar a {display: none;}
