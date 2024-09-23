@@ -585,15 +585,15 @@ details ul {
   }
 
   .categories {
-	width: 95vw;
+	width: 100vw;
 	height: 8vh;
-	border: 2px solid white;	
+	
 	
   }
 
   .categories a {
 	font-size: 0.8em;
-	width: 23%;
+	width: 25%;
   }
 
   #subheader {
