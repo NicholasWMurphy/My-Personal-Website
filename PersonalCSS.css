@@ -7,16 +7,12 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	height: 100%;
-	width: 100%;
+	
 
 
 }
 
-html {
-	height: 100%;
-	width: 100%;
-}
+
 
 header {
 	height: 24vh;
@@ -95,10 +91,7 @@ span:active {
 }
 
 
-.homepage {
-	max-width: 1600px;
-	margin: 0 auto;
-}
+
 
 
 
@@ -126,7 +119,7 @@ span:active {
 	top: 50%;
 	left: 50%;
 	text-align: center;
-	font-size: 5rem;
+	font-size: 5em;
 	font-family: Caveat;
 }
 
@@ -135,6 +128,9 @@ span:active {
 	width: 100%; 
 	padding-top: 20px;
 	padding-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 #homeleft {
@@ -142,7 +138,9 @@ span:active {
 	height: max-content;
 	position: relative;
 	overflow: hidden;
-	padding-top: 30px;
+	padding-top: 20px;
+	
+
 	
 }
 
@@ -152,6 +150,10 @@ span:active {
 	height: max-content;
 	text-align: center;
 	padding: 10px;	
+	
+	
+	
+	
 }
 
 .MyWebsite {
@@ -174,7 +176,7 @@ span:active {
 
 #homephoto1 {
 	
-	width: 70%;
+	width: 60%;
 	height: auto;
 	margin: 0 auto;
 	border-radius: 20px;
@@ -205,7 +207,7 @@ footer {
 	margin: 0 auto;
 	justify-content: space-evenly;
 	overflow: hidden;
-	height: 70px;
+	height: 65px;
 	
 }
 
@@ -381,7 +383,7 @@ details ul {
 }
 
 .review {
-	
+	max-width: 1600px;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -413,22 +415,37 @@ details ul {
 		margin: 0px;
 }
 
-.Photos img {
+.Photos {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.PhotoHighlights img {
 		margin: 0 auto;
 		display: block;
-		width: 50%;
+		width: 100%;
 		height: auto;
 		padding: 20px;
 		
+}
+.PhotoHighlights figure {
+	color: white;
+	font-family: Sedan;
+	text-align: center;
+	text-decoration: none;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	
 }	
 
 .finalreview {
-	width: 85vw;
-	height: 45vh;
+	width: 100%;	
 	border-radius: 20px;
 	display: flex;	
 	margin: 0 auto;
 	overflow: hidden;
+	height: 300px;
 	
 	
 	
@@ -452,6 +469,7 @@ details ul {
 	padding: 15px;
 	overflow: visible;
 	font-size: 1.0em;
+	
 	
 }
 
@@ -502,7 +520,7 @@ details ul {
   }
   
   #homephoto1 {
-	  width: 90%;
+	  width: 80%;
 	  height: auto;
   }
   
