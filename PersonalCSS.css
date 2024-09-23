@@ -197,7 +197,7 @@ footer {
 }
 
 
-#pagetitle {
+.pagetitle {
 	font-family: Sedan;
 	color: white;
 	text-align: center;
@@ -541,6 +541,10 @@ details ul {
   .thankyou {
 	  font-size: 1.8em;
 	  width: 95%;
+  }
+
+  #totktitle {
+	font-size: 1.3em;
   }
   
   .review p {
