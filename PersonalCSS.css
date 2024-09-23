@@ -207,11 +207,12 @@ footer {
 
 .categories {
 	display: flex;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	justify-content: space-evenly;
 	overflow: hidden;
-	height: 60px;
+	height: 65px;
+	
 	
 }
 
@@ -579,13 +580,20 @@ details ul {
   }
 
   .recentreviews img {
-	width: 90vw;
+	width: 100%;
 	height: auto;
   }
 
   .categories {
-	width: 90vw;
-	height: 7vh;
+	width: 95vw;
+	height: 8vh;
+	border: 2px solid white;	
+	
+  }
+
+  .categories a {
+	font-size: 0.8em;
+	width: 23%;
   }
 
   #subheader {
