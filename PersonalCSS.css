@@ -7,7 +7,15 @@ body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
 
+
+}
+
+html {
+	height: 100%;
+	width: 100%;
 }
 
 header {
@@ -87,7 +95,10 @@ span:active {
 }
 
 
-
+.homepage {
+	max-width: 1600px;
+	margin: 0 auto;
+}
 
 
 
@@ -121,7 +132,7 @@ span:active {
 
 .welcome {
 	display: flex;
-	width: 100vw; 
+	width: 100%; 
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -135,10 +146,6 @@ span:active {
 	
 }
 
-#signature {
-		width: 300px;
-		height: auto;
-}
 
 #homeright {
 	width: 50%;
@@ -172,9 +179,6 @@ span:active {
 	margin: 0 auto;
 	border-radius: 20px;
 	display: block;
-	
-	
-
 }
 
 
@@ -191,21 +195,23 @@ footer {
 	font-family: Sedan;
 	color: white;
 	text-align: center;
+	font-size: 3em;
 	
 }
 
 .categories {
 	display: flex;
-	width: 40vw;
-	height: 10vh; 
+	width: 60%;
 	margin: 0 auto;
 	justify-content: space-evenly;
+	overflow: hidden;
+	height: 70px;
 	
 }
 
 .categories a{
-		height: 75%;
-		width: 25%;
+		height: 100%;
+		width: 20%;
 		color: white;
 		font-family: Bona Nova SC;
 		align-content: center;
@@ -213,7 +219,8 @@ footer {
 		border-radius: 5px;
 		text-decoration: none;
 		font-weight: bold;
-		font-size: 1.2em;
+		font-size: 1.1em;
+		padding: 10px;
 	
 }
 
@@ -235,20 +242,27 @@ footer {
 	color: white;
 	text-align: left;
 	width: 60%;
+	margin: 0 auto;	
+	padding-top: 20px;
+}
+
+.AllReviews {
+	max-width: 1600px;
 	margin: 0 auto;
+
+	
 	
 }
 
 .recentreviews {
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 }
 
 .recentreviews img {
 		margin: 0 auto;
-		width: 60vw;
-		height: auto;
+		width: 100%;
 		display: block; 
 		border: 2px solid white;
 		
@@ -258,6 +272,9 @@ footer {
 	font-family: Sedan;
 	text-align: center;
 	text-decoration: none;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
 	
 
 }
@@ -301,15 +318,21 @@ footer {
 .aboutmeintro {
 		font-family: Caveat;
 		color: white;
-		width: 40vw;
+		width: 50%;
 		text-align: center;
 		margin: 0 auto;
 		height: max-content;
 		font-size: 2rem;
 		padding-bottom: 30px;
+		
 }
 
-
+.AboutMe {
+	max-width: 1600px;
+	margin: 0 auto;
+	
+	
+}
 
 
 details {
@@ -340,11 +363,11 @@ details ul {
 }
 
 .aboutmephoto {
-	width: 700px;
-	height: 550px;
+	width: 40%;
+	height: auto;
 	margin: 0 auto;
 	display: block;
-	padding: 50px;
+	padding: 20px;
 }
 
 .review p {
@@ -359,7 +382,7 @@ details ul {
 
 .review {
 	
-	max-width: 1600px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	height: 100%;
