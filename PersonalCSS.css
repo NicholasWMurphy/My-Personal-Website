@@ -19,8 +19,8 @@ body {
 
 
 header {
-	height: 20%;
-	width: 100%;
+	height: 20vh;
+	width: 100vw;
 	
 	overflow: hidden;
 	display: flex;
