@@ -24,6 +24,7 @@ header {
 	width: 100vw;
 	overflow: hidden;
 	display: flex;
+	margin-top: 5px;
 	
 }
 
@@ -521,6 +522,7 @@ details ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .reviewpointers {
@@ -531,7 +533,7 @@ details ul {
 	font-family: Sedan;
 	padding: 15px;
 	overflow: visible;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	
 	
 }
@@ -546,7 +548,8 @@ details ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 3.5em;
+	font-size: 6em;
+	
 	
 }
 
@@ -606,7 +609,8 @@ details ul {
   }
   
   .pageintro {
-	  height: 30vh;
+	  height: 40vh;
+	  margin-top: 5px;
   } 
   
   .thankyou {
@@ -673,6 +677,7 @@ details ul {
 
   #subheader {
 	width: 100%;
+	padding: 25px;
 	
   }
 
@@ -717,6 +722,9 @@ header {
 	height: 30vh;
 }
 
+.PhotoHighlights figure {
+	width: 90vw;
+}
 
 
 
@@ -758,7 +766,7 @@ header {
 }
 
 .reviewscore {
-	font-size: 1.1em;
+	font-size: 2.0em;
 	background-color: orangered;
 	width: 100%;
 	height: max-content;
@@ -774,6 +782,7 @@ header {
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	font-size: 4em;
 }
 
 .reviewpointers {
