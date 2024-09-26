@@ -144,6 +144,7 @@ span:active {
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
+	padding-bottom: 20px;
 	
 
 }
@@ -169,8 +170,8 @@ span:active {
 .welcome {
 	display: flex;
 	width: 100%; 
-	padding-top: 20px;
-	padding-bottom: 20px;
+	height: 60vh;
+	overflow: hidden;
 	justify-content: center;
 	align-items: center;
 	
@@ -178,25 +179,23 @@ span:active {
 
 #homeleft {
 	width: 50%;
-	height: max-content;
-	position: relative;
+	height: 100%;
 	overflow: hidden;
-	padding-top: 20px;
-	
-
-	
 }
+
+
 
 
 #homeright {
 	width: 50%;
-	height: max-content;
+	height: 100%;
 	text-align: center;
-	padding: 10px;	
-	
-	
-	
-	
+	justify-content: center;
+	align-items: center;
+	border: 2px solid red;
+	padding-top: 40px;
+
+
 }
 
 .MyWebsite {
@@ -212,8 +211,8 @@ span:active {
 	font-family: Caveat;
 	font-size: 2.5rem;
 	text-align: center; 
-	width: 65%;
 	margin: 0 auto;
+	width: 80%;
 
 }
 
@@ -487,6 +486,30 @@ details ul {
 	
 }	
 
+.homerow {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 100%;
+	
+	
+}
+
+.homecolumn {
+	flex: 25%;
+	max-width: 25%;
+	height: 100%;
+	
+	
+	
+}
+
+.homecolumn img {
+	width: 100%;
+	object-fit: cover;
+	padding: 0 3px;
+	
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -498,6 +521,7 @@ details ul {
 	max-width: 25%;
 	padding: 0 4px;
   }
+
 
   .column img {
 	margin-top: 8px;
@@ -594,17 +618,17 @@ details ul {
   }
   .welcome {
 	  flex-direction: column;
-	  
+	  height: 90vh; 
   }
   
   #homeleft, #homeright {
 	 width: 100vw;
   }
+
+
+
   
-  #homephoto1 {
-	  width: 80%;
-	  height: auto;
-  }
+
   
   .title {
 		font-size: 3rem;
@@ -618,7 +642,7 @@ details ul {
   
   .thankyou {
 	  font-size: 1.8em;
-	  width: 95%;
+	  width: 85%;
   }
 
   #totktitle {
