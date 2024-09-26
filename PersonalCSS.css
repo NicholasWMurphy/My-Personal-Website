@@ -175,12 +175,16 @@ span:active {
 	justify-content: center;
 	align-items: center;
 	
+	
 }
 
 #homeleft {
 	width: 50%;
 	height: 100%;
 	overflow: hidden;
+	margin-right: 3px;
+	
+	
 }
 
 
@@ -489,7 +493,7 @@ details ul {
 	display: flex;
 	flex-wrap: nowrap;
 	height: 100%;
-	margin-right: 3px;
+	
 	
 	
 }
@@ -627,8 +631,8 @@ details ul {
 	 width: 100vw;
   }
 
-  .homerow{
-	margin: 0px;
+  #home-left{
+	margin-right: 0px;
   }
 
 
