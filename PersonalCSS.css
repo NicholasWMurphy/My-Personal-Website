@@ -338,13 +338,15 @@ footer {
 	
 	
 	
+	
 }
 
 .review iframe {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 20px;
-	height: 100%;
+	height: 70vh;
+	
 
 }
 
@@ -432,14 +434,15 @@ details ul {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	height: 100%;
+	
 	
 }
 
 .review-content {
 	width: 75%;
 	margin: 0 auto;
-	height: 100%;
+	
+	
 } 
 
 .review img {
@@ -720,6 +723,7 @@ header {
 .review iframe {
 	width: 95vw;
 	height: 30vh;
+	
 }
 
 .PhotoHighlights figure {
