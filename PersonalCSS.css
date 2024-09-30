@@ -144,6 +144,7 @@ span:active {
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
+	margin-bottom: 10px;
 
 	
 	
@@ -645,6 +646,7 @@ details ul {
   .pageintro {
 	  height: 40vh;
 	  margin-top: 5px;
+	  margin-bottom: 0px;
   } 
   
   .thankyou {
