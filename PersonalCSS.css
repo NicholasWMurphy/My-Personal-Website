@@ -43,8 +43,8 @@ header {
 }
 
 .logo img {
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
 	display: block;
 	margin: 0 auto;
 	
@@ -133,7 +133,7 @@ span:active {
 
 
 .homepage {
-	min-width: 100vw;
+	min-width: 100%;
 }
 
 
@@ -185,6 +185,7 @@ span:active {
 	margin-right: 15px;
 	
 	
+	
 }
 
 
@@ -195,8 +196,7 @@ span:active {
 	height: 100%;
 	text-align: center;
 	justify-content: center;
-	align-items: center;
-	padding-top: 40px;
+	align-content: center;
 
 
 }
@@ -206,6 +206,7 @@ span:active {
 	width: 100%;
 	color: white;
 	font-size: 2rem;
+	
 
 }
 
@@ -219,14 +220,9 @@ span:active {
 
 }
 
-#homephoto1 {
-	
-	width: 65%;
-	height: auto;
-	margin: 0 auto;
-	border-radius: 20px;
-	display: block;
-}
+
+
+
 
 
 
@@ -852,3 +848,38 @@ header {
 	}
   }
 
+  @media screen and (min-width: 1800px) {
+
+	.navbar a {
+
+		color: white;
+		font-size: 2rem;
+		text-decoration: none;
+		font-family: Bona Nova SC;
+		font-weight: bold;
+		padding: 15px;
+	} 
+
+	.logo img {
+		width: 60%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		
+	}
+
+	.title { 
+		text-align: center;
+		font-size: 8em;
+		font-family: Caveat;
+	}
+
+	.MyWebsite {
+		font-size: 4em;
+	}
+
+	.thankyou {
+		font-size: 4em;
+	}
+
+}
