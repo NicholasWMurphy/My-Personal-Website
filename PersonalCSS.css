@@ -345,7 +345,7 @@ footer {
 	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 20px;
-	height: 70vh;
+	height: 65vh;
 	
 
 }
@@ -883,6 +883,10 @@ header {
 
 	.thankyou {
 		font-size: 4em;
+	}
+
+	.review iframe {
+		height: 40vh;
 	}
 
 }
