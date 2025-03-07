@@ -28,6 +28,38 @@ header {
 	
 }
 
+.ticker{
+	font-size: 1rem;
+	padding-block: 8px;
+	overflow: hidden;
+	user-select: none;
+	display: flex;
+	gap: 25px;
+	color: white;
+	font-family: Caveat;
+	background-image: linear-gradient(to right, red, orangered);
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.ticker ul {
+	list-style: none;
+	flex-shrink: 0;
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+	animation: scroll 20s linear infinite;
+
+}
+
+@keyframes scroll {
+	to {
+		transform: translateX(calc(-100% - 25px))
+	}
+}
 .logo a:visited {
 	
 	text-decoration: none;
@@ -854,6 +886,10 @@ header {
 
   @media screen and (min-width: 1800px) {
 
+	.ticker {
+		font-size: 1.2rem;
+	}
+
 	.navbar a {
 
 		color: white;
@@ -878,6 +914,8 @@ header {
 		font-family: Caveat;
 	}
 
+
+
 	.MyWebsite {
 		font-size: 4em;
 	}
@@ -888,6 +926,14 @@ header {
 
 	.review iframe {
 		height: 40vh;
+	}
+
+}
+
+@media screen and (min-width: 2500px) {
+
+	.ticker {
+		font-size: 2.2rem;
 	}
 
 }
