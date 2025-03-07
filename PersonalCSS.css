@@ -628,6 +628,9 @@ details ul {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+	.ticker ul {
+  animation: scroll 25s linear infinite;
+	}
 
   .logo img {
 		width: 130px;
