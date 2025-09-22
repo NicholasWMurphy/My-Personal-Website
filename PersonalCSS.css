@@ -388,8 +388,9 @@ footer {
 .section-title {
 	font-family: Bona Nova SC;
 	color: orangered;
+	font-weight: bold;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 
