@@ -385,7 +385,12 @@ footer {
 
 
 
-
+.section-title {
+	font-family: Bona Nova SC;
+	color: orangered;
+	text-align: center;
+	font-size: 1.5em;
+}
 
 
 .recentreviews figcaption {
